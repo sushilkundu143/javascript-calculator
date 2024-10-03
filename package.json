@@ -3,7 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://sushilkundu143.github.io/javascript-calculator",
+  "author": {
+    "name": "Sushil Kundu",
+    "email": "sushilkundu143@gmail.com",
+    "url": "https://www.linkedin.com/in/sushilkundu"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,7 +15,8 @@
     "preview": "vite preview",
     "predeploy": "vite build",
     "deploy": "gh-pages -d dist",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "netlify": "netlify deploy --prod"
   },
   "dependencies": {
     "react": "^18.3.1",
