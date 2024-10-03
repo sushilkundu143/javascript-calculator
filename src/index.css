@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#preview h1 {
+  @apply border-b-2 leading-10;
+}
